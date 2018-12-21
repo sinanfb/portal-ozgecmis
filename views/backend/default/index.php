@@ -1,4 +1,4 @@
-<?= $this->title = 'Modül çalışıyor.'; ?>
+<?= $this->title = 'Deneme Modul'; ?>
 <div class="site-index">
 
     <div class="jumbotron">
@@ -6,7 +6,7 @@
 
         <p class="lead">Örnek uygulamayı başarılı bir şekilde çalıştırdınız.</p>
 
-        <p><a class="btn btn-lg btn-success" href="#">Modüller ve konfürgasyon!</a></p>
+        <p><a class="btn btn-lg btn-success" href="#">İlk Uygulama</a></p>
     </div>
 
 </div>
