@@ -9,12 +9,12 @@ erişim sağlayabilirsiniz.
 3)Soru Ekleyebilirsiniz                                                                
 4)Şablon Oluşturabilirsiniz                                                       
 
-Kullanıcı panel sayfasına girdiğinizde yapabileceğiniz işlemler
-1)Sorulan soruları eksiksiz doldurarak cv nizi oluşturabilirsiniz.
-2)Oluşturduğunuz cv üzerinde güncelleme yapabilirsiniz.
-
-Ek Olarak 
-http://portal.kouosl/ozgecmis sayfasına dil desteği sağlanmıştır.
+Kullanıcı panel sayfasına girdiğinizde yapabileceğiniz işlemler                                        
+1)Sorulan soruları eksiksiz doldurarak cv nizi oluşturabilirsiniz.                                     
+2)Oluşturduğunuz cv üzerinde güncelleme yapabilirsiniz.                                            
+                                                                                                                                      
+Ek Olarak                                                                                                      
+http://portal.kouosl/ozgecmis sayfasına dil desteği sağlanmıştır. 
 
 
 
