@@ -1,16 +1,16 @@
-    <?php
+<?php
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model vendor\kouosl\ozgecmis\models\Ozgecmis */
+/* @var $model vendor\kouosl\ozgecmis\models\Soruekle */
 
 $this->title = $model->name;
-$this->params['breadcrumbs'][] = ['label' => 'Ozgecmis', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Soruekles', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="ozgecmis-view">
+<div class="soruekle-view">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
@@ -30,7 +30,6 @@ $this->params['breadcrumbs'][] = $this->title;
         'attributes' => [
             'id',
             'name',
-            
         ],
     ]) ?>
 

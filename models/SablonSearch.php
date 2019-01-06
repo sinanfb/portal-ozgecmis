@@ -5,12 +5,12 @@ namespace kouosl\ozgecmis\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use kouosl\ozgecmis\models\Ozgecmis;
+use kouosl\ozgecmis\models\Sablon;
 
 /**
- * OzgecmisSearch represents the model behind the search form of `vendor\kouosl\ozgecmis\models\Ozgecmis`.
+ * SablonSearch represents the model behind the search form of `vendor\kouosl\ozgecmis\models\Sablon`.
  */
-class OzgecmisSearch extends Ozgecmis
+class SablonSearch extends Sablon
 {
     /**
      * {@inheritdoc}
@@ -19,7 +19,7 @@ class OzgecmisSearch extends Ozgecmis
     {
         return [
             [['id'], 'integer'],
-            [['name'], 'safe'],
+            [['isim', 'soyisim', 'adres', 'cep_telefonu', 'email', 'egitim_bilgileri', 'is_deneyimleri', 'sertifikalar', 'yabancı_diller', 'kısaca_kendinizi_tanıtın'], 'safe'],
         ];
     }
 
@@ -41,7 +41,7 @@ class OzgecmisSearch extends Ozgecmis
      */
     public function search($params)
     {
-        $query = Ozgecmis::find();
+        $query = Sablon::find();
 
         // add conditions that should always apply here
 
@@ -62,7 +62,16 @@ class OzgecmisSearch extends Ozgecmis
             'id' => $this->id,
         ]);
 
-        $query->andFilterWhere(['like', 'name', $this->name]);
+        $query->andFilterWhere(['like', 'isim', $this->isim])
+            ->andFilterWhere(['like', 'soyisim', $this->soyisim])
+            ->andFilterWhere(['like', 'adres', $this->adres])
+            ->andFilterWhere(['like', 'cep_telefonu', $this->cep_telefonu])
+            ->andFilterWhere(['like', 'email', $this->email])
+            ->andFilterWhere(['like', 'egitim_bilgileri', $this->egitim_bilgileri])
+            ->andFilterWhere(['like', 'is_deneyimleri', $this->is_deneyimleri])
+            ->andFilterWhere(['like', 'sertifikalar', $this->sertifikalar])
+            ->andFilterWhere(['like', 'yabancı_diller', $this->yabancı_diller])
+            ->andFilterWhere(['like', 'kısaca_kendinizi_tanıtın', $this->kısaca_kendinizi_tanıtın]);
 
         return $dataProvider;
     }

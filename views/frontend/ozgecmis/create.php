@@ -2,16 +2,15 @@
 
 use yii\helpers\Html;
 
+
 /* @var $this yii\web\View */
 /* @var $model vendor\kouosl\ozgecmis\models\Ozgecmis */
 
-$this->title = 'Update Ozgecmis: ' . $model->name;
+$this->title = 'Create Ozgecmis';
 $this->params['breadcrumbs'][] = ['label' => 'Ozgecmis', 'url' => ['index']];
-$this->params['breadcrumbs'][] = ['label' => $model->name, 'url' => ['view', 'id' => $model->id]];
-
-$this->params['breadcrumbs'][] = 'Update';
+$this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="ozgecmis-update">
+<div class="ozgecmis-create">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
