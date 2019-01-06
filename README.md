@@ -1,9 +1,10 @@
 Admin Panel Giriş=http://portal.kouosl/admin/ozgecmis                                                  
 Kullanıcı Panel Giriş=http://portal.kouosl/ozgecmis
 
-![img](EkranGoruntusu.png)
 
 Admin panel sayfasına girdiğiniz de yapabileceğiniz işlemler
+
+![img](EkranGoruntusu.png)
 
 1)Önceki kayıtları görüntüleyebilir ve gerekli düzenlemeleri yapabilirsiniz.Tablodaki kayıtlara url oluşturarak da
 erişim sağlayabilirsiniz.                                                                        
@@ -11,7 +12,10 @@ erişim sağlayabilirsiniz.
 3)Soru Ekleyebilirsiniz                                                                
 4)Şablon Oluşturabilirsiniz                                                       
 
-Kullanıcı panel sayfasına girdiğinizde yapabileceğiniz işlemler                                        
+Kullanıcı panel sayfasına girdiğinizde yapabileceğiniz işlemler       
+
+
+
 1)Sorulan soruları eksiksiz doldurarak cv nizi oluşturabilirsiniz.                                     
 2)Oluşturduğunuz cv üzerinde güncelleme yapabilirsiniz.                                            
                                                                                                                                       
