@@ -5,12 +5,12 @@ namespace kouosl\ozgecmis\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use kouosl\ozgecmis\models\Ozgecmis;
+use kouosl\ozgecmis\models\Soruekle;
 
 /**
- * OzgecmisSearch represents the model behind the search form of `vendor\kouosl\ozgecmis\models\Ozgecmis`.
+ * SoruekleSearch represents the model behind the search form of `vendor\kouosl\ozgecmis\models\Soruekle`.
  */
-class OzgecmisSearch extends Ozgecmis
+class SoruekleSearch extends Soruekle
 {
     /**
      * {@inheritdoc}
@@ -41,7 +41,7 @@ class OzgecmisSearch extends Ozgecmis
      */
     public function search($params)
     {
-        $query = Ozgecmis::find();
+        $query = Soruekle::find();
 
         // add conditions that should always apply here
 

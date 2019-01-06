@@ -1,16 +1,14 @@
-<?= $this->title = 'Modül çalışıyor.'; ?>
+<?php use kouosl\ozgecmis\Module; ?>
+<?= $this->title = Module::t('ozgecmis','CV Module Homepage') ?>
 <div class="site-index">
 
-    <div class="jumbotron">
-        <h1>Kou Osl Yii2 App</h1>
+   <div class="jumbotron">
+        <h1><?php echo Module::t('ozgecmis','CV Module') ?></h1>
 
-        <p class="lead">Selam CAnım Ben Amcanım.</p>
+        <p class="lead"><?php echo Module::t('ozgecmis','Click the button below to create CV') ?></p>
+       
 
-        <p><a class="btn btn-lg btn-success" href="#">Modüller ve konfürgasyon!</a></p>
-
-         <p class="lead">Selam CAnım Ben Amcanım.</p>
-
-        <p><a class="btn btn-lg btn-info" href="#">Modüller ve konfürgasyon!</a></p>
+        <p><a class="btn btn-lg btn-success" href="/ozgecmis/ozgecmis"><?php echo Module::t('ozgecmis','Login') ?></a></p>
     </div>
 
 </div>

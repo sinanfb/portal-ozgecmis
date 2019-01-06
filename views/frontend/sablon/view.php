@@ -1,16 +1,16 @@
-    <?php
+<?php
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model vendor\kouosl\ozgecmis\models\Ozgecmis */
+/* @var $model vendor\kouosl\ozgecmis\models\Sablon */
 
-$this->title = $model->name;
-$this->params['breadcrumbs'][] = ['label' => 'Ozgecmis', 'url' => ['index']];
+$this->title = $model->id;
+$this->params['breadcrumbs'][] = ['label' => 'Sablons', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="ozgecmis-view">
+<div class="sablon-view">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
@@ -29,8 +29,16 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
         'attributes' => [
             'id',
-            'name',
-            
+            'isim',
+            'soyisim',
+            'adres',
+            'cep_telefonu',
+            'email:email',
+            'egitim_bilgileri',
+            'is_deneyimleri',
+            'sertifikalar',
+            'yabancı_diller',
+            'kısaca_kendinizi_tanıtın',
         ],
     ]) ?>
 
