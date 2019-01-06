@@ -14,7 +14,7 @@ erişim sağlayabilirsiniz.
 
 Kullanıcı panel sayfasına girdiğinizde yapabileceğiniz işlemler       
 
-
+![img](EkranGoruntusu2.png)
 
 1)Sorulan soruları eksiksiz doldurarak cv nizi oluşturabilirsiniz.                                     
 2)Oluşturduğunuz cv üzerinde güncelleme yapabilirsiniz.                                            
