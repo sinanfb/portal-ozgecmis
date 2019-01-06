@@ -1,6 +1,8 @@
 Admin Panel Giriş=http://portal.kouosl/admin/ozgecmis                                                  
 Kullanıcı Panel Giriş=http://portal.kouosl/ozgecmis
 
+![img](EkranGoruntusu.png)
+
 Admin panel sayfasına girdiğiniz de yapabileceğiniz işlemler
 
 1)Önceki kayıtları görüntüleyebilir ve gerekli düzenlemeleri yapabilirsiniz.Tablodaki kayıtlara url oluşturarak da
